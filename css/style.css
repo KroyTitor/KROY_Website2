@@ -49,6 +49,7 @@ body{
 @media (max-width: 724px){
   .IMGindex{
     max-width: 100%;
+    margin: 0;
   }
 }
 
