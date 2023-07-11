@@ -1,0 +1,256 @@
+/* line 1, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ 
+body{
+  background-color: black;
+}
+
+/* line 11, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+.headerIndex {
+  font-weight: 300;
+  font-size:10vw;
+  margin-left: 80px;
+  color: goldenrod;
+  /*border-style: solid;
+  border-radius: 3px;
+  border-color: aliceblue;*/
+  width: 
+}
+@media (max-width: 800px){
+  .headerIndex{
+    width: 80%;
+    font-size: 18vw;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+  }
+}
+
+/* line 18, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+.mainP {
+  color: whitesmoke;
+  font-size: 30px;
+  margin: 15px;
+  margin-top: 0;
+}
+
+/* line 24, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+.IMGindex {
+  max-width: 707px; 
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 724px){
+  .IMGindex{
+    max-width: 100%;
+  }
+}
+
+/* line 28, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+header {
+  width: 100%;
+  z-index: 3;
+  background-color: transparent;
+  /*border-style: solid;
+  border-radius: 3px;
+  border-color: aliceblue;*/
+  }
+  /* line 36, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+  header nav {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    padding: 20px 10px;
+    /*border-style: solid;
+    border-radius: 3px;
+    border-color: aliceblue;*/
+   }
+    /* line 42, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+    header nav ul {
+      list-style: none;
+      flex: 1;
+      justify-content: flex-end;
+      display: block; }
+      @media (min-width: 800px) {
+        /* line 42, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+        header nav ul {
+          display: flex; }
+        header nav ul li{
+          margin-top: ;
+        }
+        }
+      /* line 51, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+      header nav ul a {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 15px;
+        margin-left: 15px; }
+
+/* line 64, ../../../../../Desktop/code/KROY_Website/scss/style.scss */
+.container {
+  max-width:;
+  margin: 0 auto; }
+/*# sourceMappingURL=style.css.map */
+.album-image{
+  width: 35%;
+  display: block;
+  margin: 15px;
+  margin-top: 70px;
+  margin-left: auto; margin-right: auto;
+  /*border-style: solid;
+  border-radius: 3px;
+  border-color: aliceblue;*/
+  @media (max-width: 800px) {
+  }
+}
+.album-title{
+  width: 60%;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  color: aliceblue;
+  margin: 15px;
+  margin-right: 80px;
+  margin-top: 40px;
+  border-top: solid 1px aliceblue;
+  margin-left: auto; margin-right: auto;
+}
+
+.project-table{
+  width: 50%;
+  margin: 15px;
+  margin-right: 80px;
+  margin-top: 30px;
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+  margin-left: auto; margin-right: auto;
+}
+
+td[class^="track-"], th[class^="track-"]{
+  width: 30px;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 100;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 1px;
+}
+
+.album-platforms{
+  display: block;
+  margin: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  width: 29%;
+  padding: 20px;
+  background-color:;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: auto; margin-right: auto;
+}
+
+.platform-logo{
+  width: 20%;
+  padding: 5px;
+}
+
+.album{
+  width: 100%;
+  margin-top: ;
+  height: ;
+  /*border-style: solid;
+  border-radius: 3px;
+  border-color: aliceblue;*/
+}
+
+@media (max-width: 1300px) {
+    .album-title, .album-image,
+    .project-table {
+      width: 50%;
+      float: none;
+      margin-left: auto; margin-right: auto;
+      align-items: ;
+    }
+
+    .album-title{
+      width: 60%;
+    }
+
+    .album-image{
+      display: block;
+      margin-top: 15px;
+    }
+
+    .platform-logo{
+      align-items: center;
+    }
+
+    .album-platforms{
+      width: 23em;
+    }
+    
+  
+}
+
+.visual_content{
+  width: 50%;
+  margin: 15px;
+  margin-right: auto; margin-left: auto;
+  display: block;
+}
+
+.contact_img{
+  width: 100px;
+  margin-left: auto; margin-right: auto;
+  margin: 3em;
+  display: block;
+}
+
+.contact_link{
+  width: 100px;
+  margin-left: auto; margin-right: auto;
+  margin: 3em;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .contact_img{
+    width: 100%
+  }
+
+  .contact_link{
+    width: 15%;
+  }
+
+}
+
+.sc_embedd{
+  width: 40%;
+  float: right;
+  margin: 15px;
+  margin-right: 50px;
+}
+
+@media (max-width: 724px){ 
+  .sc_embedd{
+    float: none;
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+footer{
+  position:fixed;
+  bottom: 0;
+  font-size: medium;
+  color: aliceblue;
+  background-color: transparent;
+}
