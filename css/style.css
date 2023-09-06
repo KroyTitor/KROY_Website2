@@ -188,6 +188,7 @@ td[class^="track-"], th[class^="track-"]{
     .album-image{
       display: block;
       margin-top: 15px;
+      width: 50%;
     }
 
     .platform-logo{
