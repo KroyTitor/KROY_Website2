@@ -46,6 +46,15 @@ body{
   margin-bottom: 5px;
 }
 
+.Ytindex {
+  max-width: 100%; 
+  width: 90%;
+  height: 800px;
+
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
 @media (max-width: 724px){
   .IMGindex{
     max-width: 100%;
